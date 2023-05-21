@@ -1,0 +1,3 @@
+" Ported from https://github.com/agentlewis/vim-dvorak
+" The character " (the double quote mark) starts a comment
+" Type :h nv for help.
