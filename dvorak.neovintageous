@@ -3,84 +3,84 @@
 " Type :h nv for help.
 
 " Up/down/left/right {{{
-noremap h h
-noremap t j
-noremap n k
-noremap s l
+    noremap h h
+    noremap t j
+    noremap n k
+    noremap s l
 " }}}
 " Words forward/backward {{{
-" g/G = back word/WORD
-" c/C = end of word/WORD
-" r/R = forward word/WORD
-noremap g b
-noremap G B
-noremap r w
-noremap R W
-noremap l e
-noremap L E
+    " g/G = back word/WORD
+    " c/C = end of word/WORD
+    " r/R = forward word/WORD
+    noremap g b
+    noremap G B
+    noremap r w
+    noremap R W
+    noremap l e
+    noremap L E
 " }}}
 " Command {{{
-noremap b g
-noremap B G
+    noremap b g
+    noremap B G
 " }}}
 " inSert/Replace/append (T) {{{
-nnoremap e s
-nnoremap E S
+    nnoremap e s
+    nnoremap E S
 " }}}
 " Change {{{
-nnoremap p c
-xnoremap p c
-nnoremap P C
-xnoremap P C
-nnoremap pp cc
+    nnoremap p c
+    xnoremap p c
+    nnoremap P C
+    xnoremap P C
+    nnoremap pp cc
 " }}}
 " Cut/copy/paste {{{
-nnoremap x x
-xnoremap x x
-nnoremap j y
-xnoremap j y
-nnoremap k p
-xnoremap k p
-nnoremap X dd
-xnoremap X dd
-nnoremap J yy
-xnoremap J yy
-nnoremap K P
-xnoremap K P
-nnoremap bk gp
-xnoremap bk gp
-nnoremap bK gP
-xnoremap bK gP
+    nnoremap x x
+    xnoremap x x
+    nnoremap j y
+    xnoremap j y
+    nnoremap k p
+    xnoremap k p
+    nnoremap X dd
+    xnoremap X dd
+    nnoremap J yy
+    xnoremap J yy
+    nnoremap K P
+    xnoremap K P
+    nnoremap bk gp
+    xnoremap bk gp
+    nnoremap bK gP
+    xnoremap bK gP
 " }}}
 " Undo/redo {{{
-nnoremap z u
-nnoremap gz U
-nnoremap Z <C-R>
-noremap c r
-noremap C R
+    nnoremap z u
+    nnoremap gz U
+    nnoremap Z <C-R>
+    noremap c r
+    noremap C R
 " }}}
 " Search {{{
-" f/F are unchanged
-noremap y t
-noremap Y T
-noremap w ;
-noremap W ,
+    " f/F are unchanged
+    noremap y t
+    noremap Y T
+    noremap w ;
+    noremap W ,
 " }}}
 " Overridden keys must be prefixed with g {{{
-nnoremap bX X
-xnoremap bX X
-nnoremap bK K
-xnoremap bK K
-nnoremap bL L
-xnoremap bL L
+    nnoremap bX X
+    xnoremap bX X
+    nnoremap bK K
+    xnoremap bK K
+    nnoremap bL L
+    xnoremap bL L
 " }}}
 " Window handling {{{
-nnoremap <C-P>h <C-P>h
-xnoremap <C-P>h <C-P>h
-nnoremap <C-P>t <C-P>j
-xnoremap <C-P>t <C-P>j
-nnoremap <C-P>n <C-P>k
-xnoremap <C-P>n <C-P>k
-nnoremap <C-P>s <C-P>l
-xnoremap <C-P>s <C-P>l
+    nnoremap <C-P>h <C-P>h
+    xnoremap <C-P>h <C-P>h
+    nnoremap <C-P>t <C-P>j
+    xnoremap <C-P>t <C-P>j
+    nnoremap <C-P>n <C-P>k
+    xnoremap <C-P>n <C-P>k
+    nnoremap <C-P>s <C-P>l
+    xnoremap <C-P>s <C-P>l
 " }}}
