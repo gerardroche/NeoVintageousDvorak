@@ -55,7 +55,6 @@
 " Undo/redo {{{
     nnoremap z u
     nnoremap gz U
-    nnoremap Z <C-R>
     noremap c r
     noremap C R
 " }}}
