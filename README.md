@@ -1,4 +1,4 @@
-# NeoVintageousDvorak
+# NeoVintageous Dvorak
 
 Dvorak key mappings for [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous).
 
@@ -8,7 +8,7 @@ Dvorak key mappings for [NeoVintageous](https://github.com/NeoVintageous/NeoVint
 
 **Pending availability in Package Control.**
 
-Install via [Package Control](https://packagecontrol.io/packages/NeoVintageousDvorak).
+Install [NeoVintageousDvorak](https://packagecontrol.io/packages/NeoVintageousDvorak) via Package Control.
 
 ## Credits
 
