@@ -1,18 +1,20 @@
 # NeoVintageous Dvorak
 
-Dvorak key mappings for [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous).
+Dvorak key mappings for [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous).  Inspired by [vim-dvorak](https://github.com/agentlewis/vim-dvorak/blob/master/plugin/dvorak.vim).
 
-**:sparkles: :sparkles: :sparkles: Experimental plugin :sparkles: :sparkles: :sparkles:**
+**:sparkles: :sparkles: :sparkles: Experimental :sparkles: :sparkles: :sparkles:**
 
 ## Installation
 
-**Pending availability in Package Control.**
+Copy the mappings from [dvorak.neovintageous](dvorak.neovintageous) to your neovintageousrc file and reload it.
 
-Install [NeoVintageousDvorak](https://packagecontrol.io/packages/NeoVintageousDvorak) via Package Control.
+Command Palette → NeoVintageous: Open RC File
 
-## Credits
+Command Palette → NeoVintageous: Reload RC File
 
-Port of [vim-dvorak](https://github.com/agentlewis/vim-dvorak/blob/master/plugin/dvorak.vim).
+*There work being done to allow enabling these mapping without having to manually copy them.*
+
+See https://github.com/NeoVintageous/NeoVintageous/issues/919
 
 ## License
 
