@@ -2,8 +2,6 @@
 
 Dvorak key mappings for [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous).  Inspired by [vim-dvorak](https://github.com/agentlewis/vim-dvorak/blob/master/plugin/dvorak.vim).
 
-**:sparkles: :sparkles: :sparkles: Experimental :sparkles: :sparkles: :sparkles:**
-
 ## Installation
 
 Copy the mappings from [dvorak.neovintageous](dvorak.neovintageous) to your neovintageousrc file and reload it.
