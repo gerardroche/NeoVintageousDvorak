@@ -1,23 +1,67 @@
 # NeoVintageous Dvorak
 
-Dvorak key mappings for [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous).  Inspired by [vim-dvorak](https://github.com/agentlewis/vim-dvorak/blob/master/plugin/dvorak.vim).
+Dvorak key mappings for [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous).
+
+Inspired by [vim-dvorak](https://github.com/agentlewis/vim-dvorak/blob/master/plugin/dvorak.vim).
 
 ## Installation
 
-Copy the mappings from [dvorak.neovintageous](dvorak.neovintageous) to your neovintageousrc file and reload it.
+### Package Control installation
 
-Command Palette → NeoVintageous: Open RC File
+**Pending availability**
 
-Command Palette → NeoVintageous: Reload RC File
+Install NeoVintageousDvorak via [Package Control](https://packagecontrol.io/packages/NeoVintageousDvorak).
 
-*There work being done to allow enabling these mapping without having to manually copy them.*
+### Manual installation
 
-See https://github.com/NeoVintageous/NeoVintageous/issues/919
+Close Sublime Text, then download or clone this repository to a directory named **NeoVintageousDvorak** in the Sublime Text Packages directory for your platform:
+
+**Linux**
+
+`git clone https://github.com/gerardroche/NeoVintageousDvorak.git ~/.config/sublime-text-3/Packages/NeoVintageousDvorak`
+
+**OSX**
+
+`git clone https://github.com/gerardroche/NeoVintageousDvorak.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/NeoVintageousDvorak`
+
+**Windows**
+
+`git clone https://github.com/gerardroche/NeoVintageousDvorak.git %APPDATA%\Sublime/ Text/ 3/Packages/NeoVintageousDvorak`
+
+## Setup
+
+### NeoVintageous &gt;= v1.32
+
+Configure NeoVintageous to source the Dvorak mappings **before** the neovintageousrc file is sourced.
+
+| Setting | Description
+| :------ | :----------
+| `vintageous_source` | Read Ex commands from a resource before the neovintageourc resource is sourced. This means you can still override these ex commands in your neovintageousrc file. <br>Example: Packages/NeoVintageousDvorak/dvorak.neovintageous
+
+Command Palette → Preferences: NeoVintageous Settings
+
+```json
+{
+    "vintageous_source": "Packages/NeoVintageousDvorak/dvorak.neovintageous"
+}
+```
+
+Reload your neovintageousrc file for changes to take effect.
+
+Command Palette → NeoVintageous: Reload .neovintageousrc File
+
+**NeoVintageous &lt;= v1.32**
+
+Manually copy the contents of [dvorak.neovintageous](dvorak.neovintageous) into your neovintageousrc file and reload it for changes to take effect.
+
+Command Palette → NeoVintageous: Open .neovintageousrc File
+
+Command Palette → NeoVintageous: Reload .neovintageousrc File
 
 ## Key mappings
 
 ```
-Dvorak layout:                  |                 QWERTY layout:
+Dvorak layout:                   |                 QWERTY layout:
 `12345 67890[]     Move around:  |  (instead of)   `12345 67890-=
  ',.py fgcrl/=\         n        |       k          qwert yuiop[]\
  aoeui dHTNS-         h   s      |     h   l        asdfg HJKL;'
