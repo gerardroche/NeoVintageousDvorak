@@ -36,7 +36,7 @@ Configure NeoVintageous to source the Dvorak mappings **before** the neovintageo
 
 | Setting | Description
 | :------ | :----------
-| `vintageous_source` | Read Ex commands from a resource before the neovintageourc resource is sourced. This means you can still override these ex commands in your neovintageousrc file. <br>Example: Packages/NeoVintageousDvorak/dvorak.neovintageous
+| `vintageous_source` | Read Ex commands from a resource before the neovintageousrc resource is sourced. This means you can still override these ex commands in your neovintageousrc file. <br>Example: Packages/NeoVintageousDvorak/dvorak.neovintageous
 
 Command Palette → Preferences: NeoVintageous Settings
 
